@@ -38,7 +38,7 @@ class App extends Component {
   return (
     <DragDropContext onDragEnd={this.onDragEnd} >
     <div className="App">
-      <h1>Hello World</h1>
+      <h1>Trello Clone App</h1>
       <Droppable droppableId="all-lists"
       direction="horizontal"
       type="list">
